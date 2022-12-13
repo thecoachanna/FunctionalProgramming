@@ -10,3 +10,6 @@ Functional Programming in JavaScript:
 5. zip
 
 If you learn these 5 functions your code will become shorter, more self-descriptive, and more durable. You'll learn that these five functions hold the key to simplifying asynchronous programming. Once you've finished this tutorial you'll also have all the tools you need to easily avoid race conditions, propagate and handle asynchronous errors, and sequence events and AJAX requests. In short, these 5 functions will probably be the most powerful, flexible, and useful functions you'll ever learn.
+
+## Source
+https://reactivex.io/learnrx/
