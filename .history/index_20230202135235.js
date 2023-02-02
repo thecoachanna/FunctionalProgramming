@@ -78,27 +78,7 @@ function projectArray() {
 // test3 = ['boat', 'banana', 'buster', 'bullet']
 
 function arrStr(words) {
-	const bWords = []
-	words.map((word, index) => {
-		if (word[0].toLowerCase() === "b") {
-			bWords.push(index);
-		}
+	return words.map((word, index) => {
+		if (word[0].toLowerCase())
 	})
-	return bWords
 }
-
-console.log(arrStr(test1))
-
-// Write a function that takes in a list or an array of numbers. The function should return the sum of any numbers from the list that are either greater than 10 or less than 5.
-
-// let arr = [1,2,3,4,5,6,7,8,9,10,55]
-
-function listOfNumbers(numbers) {
-	return numbers.reduce((sum, num) => {
-		if (num > 10 || num < 5) {
-			sum += num
-		}
-		return sum
-	}, 0);
-}
-

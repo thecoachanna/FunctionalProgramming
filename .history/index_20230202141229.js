@@ -73,7 +73,7 @@ function projectArray() {
 
 // write a function that takes in an array of strings and returns the indexs of all the words that start with the letter "b" in a new array
 
-// test1 = ['banana', 'word', 'james', 'boat', 'jet']
+test1 = ['banana', 'word', 'james', 'boat', 'jet']
 // test2 = ['kitty', 'lion', 'tiger', 'panther']
 // test3 = ['boat', 'banana', 'buster', 'bullet']
 
@@ -91,14 +91,6 @@ console.log(arrStr(test1))
 
 // Write a function that takes in a list or an array of numbers. The function should return the sum of any numbers from the list that are either greater than 10 or less than 5.
 
-// let arr = [1,2,3,4,5,6,7,8,9,10,55]
-
 function listOfNumbers(numbers) {
-	return numbers.reduce((sum, num) => {
-		if (num > 10 || num < 5) {
-			sum += num
-		}
-		return sum
-	}, 0);
+	return numbers.reduce((sum, num) => )
 }
-

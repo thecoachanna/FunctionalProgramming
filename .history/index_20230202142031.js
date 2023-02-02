@@ -101,4 +101,3 @@ function listOfNumbers(numbers) {
 		return sum
 	}, 0);
 }
-
